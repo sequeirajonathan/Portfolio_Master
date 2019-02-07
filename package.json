@@ -4,7 +4,7 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"node-sass sass/main.scss assets/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sequeirajonathan/Portfolio_Master/issues"
   },
-  "homepage": "https://github.com/sequeirajonathan/Portfolio_Master#readme"
+  "homepage": "https://github.com/sequeirajonathan/Portfolio_Master#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
 }
